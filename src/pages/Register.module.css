@@ -1,0 +1,157 @@
+.rectangle {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  margin: 0 !important;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+.timeStyle {
+  height: 16.6px;
+  width: 54px;
+  z-index: 1;
+}
+.cellularConnectionIcon,
+.wifiIcon {
+  height: 10.4px;
+  width: 17px;
+  position: relative;
+  z-index: 1;
+}
+.wifiIcon {
+  height: 10.7px;
+  width: 15.3px;
+}
+.border,
+.capIcon {
+  position: absolute;
+  mix-blend-mode: normal;
+}
+.border {
+  top: 0;
+  right: 2.3px;
+  border-radius: 2.67px;
+  border: 1px solid var(--color-black);
+  box-sizing: border-box;
+  width: 22px;
+  height: 11.3px;
+  opacity: 0.35;
+}
+.capIcon {
+  top: 3.7px;
+  right: 0;
+  width: 1.3px;
+  height: 4px;
+}
+.capacity {
+  position: absolute;
+  top: 2px;
+  right: 4.3px;
+  border-radius: 1.33px;
+  background-color: var(--color-black);
+  width: 18px;
+  height: 7.3px;
+  z-index: 1;
+}
+.battery {
+  height: 11.3px;
+  width: 24.3px;
+  position: relative;
+  z-index: 1;
+}
+.cellularConnectionParent {
+  align-self: stretch;
+  height: 11.7px;
+  flex-direction: row;
+  justify-content: flex-start;
+  gap: 5px;
+}
+.cellularConnectionParent,
+.header,
+.inner,
+.registerInner {
+  display: flex;
+  align-items: flex-start;
+}
+.inner {
+  width: 66.6px;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: 2.2px 0 0;
+  box-sizing: border-box;
+}
+.header,
+.registerInner {
+  align-self: stretch;
+  flex-direction: row;
+}
+.header {
+  overflow: hidden;
+  justify-content: space-between;
+  padding: var(--padding-mini-7) var(--padding-mini-7) 11.7px var(--padding-2xl);
+  position: sticky;
+  top: 0;
+  z-index: 99;
+  gap: var(--gap-xl);
+}
+.registerInner {
+  justify-content: flex-start;
+  padding: 0 var(--padding-19xl) 177px var(--padding-18xl);
+}
+.div {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  margin: 0 !important;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+.iphoneXhomeIndicatorhomeI,
+.iphoneXhomeIndicatorhomeIChild {
+  border-radius: var(--br-81xl);
+  background-color: var(--color-black);
+}
+.iphoneXhomeIndicatorhomeIChild {
+  position: absolute;
+  bottom: -0.2px;
+  left: calc(50% - 67px);
+  width: 100%;
+  height: 100%;
+  display: none;
+}
+.iphoneXhomeIndicatorhomeI {
+  height: 4.8px;
+  width: 134px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+  z-index: 1;
+}
+.footer,
+.register {
+  position: relative;
+  display: flex;
+  align-items: flex-start;
+}
+.footer {
+  align-self: stretch;
+  flex-direction: row;
+  justify-content: center;
+  padding: 19.2px var(--padding-xl) 8.7px var(--padding-2xl);
+}
+.register {
+  width: 100%;
+  background-color: #fff;
+  overflow: hidden;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: 1px 0 0.8px;
+  box-sizing: border-box;
+  gap: 37px;
+  line-height: normal;
+  letter-spacing: normal;
+}

@@ -1,0 +1,124 @@
+.frameChild {
+  align-self: stretch;
+  height: 1px;
+  position: relative;
+  border-top: 1px solid var(--color-darkgray-300);
+  box-sizing: border-box;
+}
+.lineWrapper {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-2xs) 0 0;
+  box-sizing: border-box;
+  min-width: 88px;
+}
+.frameItem,
+.or {
+  position: relative;
+}
+.or {
+  width: 12px;
+  display: inline-block;
+  min-width: 12px;
+}
+.frameItem {
+  align-self: stretch;
+  height: 1px;
+  border-top: 1px solid var(--color-darkgray-300);
+  box-sizing: border-box;
+}
+.frameGroup,
+.lineContainer {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.lineContainer {
+  flex: 1;
+  flex-direction: column;
+  padding: var(--padding-2xs) 0 0;
+  box-sizing: border-box;
+  min-width: 88px;
+}
+.frameGroup {
+  align-self: stretch;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: var(--gap-5xs);
+}
+.wrapperGroup2,
+.wrapperGroup2Child {
+  position: absolute;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+.wrapperGroup2Child {
+  object-fit: contain;
+  top: 4px;
+  transform: scale(1.455);
+}
+.wrapperGroup2 {
+  top: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.flatColorIconsgoogle,
+.icbaselineWechatIcon,
+.iconoirx {
+  position: absolute;
+  top: 5px;
+  left: 5px;
+  width: 34px;
+  height: 34px;
+  overflow: hidden;
+  z-index: 1;
+}
+.icbaselineWechatIcon,
+.iconoirx {
+  top: 7px;
+  left: 95px;
+  width: 30px;
+  height: 30px;
+}
+.iconoirx {
+  top: 10px;
+  left: 186px;
+  width: 25px;
+  height: 25px;
+}
+.wrapperGroup2Parent {
+  height: 44px;
+  flex: 1;
+  position: relative;
+}
+.frameWrapper {
+  align-self: stretch;
+  flex-direction: row;
+  padding: 0 var(--padding-21xl);
+}
+.frameParent,
+.frameWrapper,
+.registerInner {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.frameParent {
+  flex: 1;
+  flex-direction: column;
+  gap: var(--gap-5xl);
+}
+.registerInner {
+  align-self: stretch;
+  flex-direction: row;
+  padding: 0 var(--padding-19xl) var(--padding-xs-5) var(--padding-18xl);
+  text-align: center;
+  font-size: var(--font-size-xs);
+  color: var(--color-darkgray-200);
+  font-family: var(--font-pingfang-sc);
+}

@@ -1,0 +1,49 @@
+@import url("https://fonts.googleapis.com/css2?family=SF+Pro:wght@600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=PingFang+SC:wght@400&display=swap");
+@import url("https://fonts.googleapis.com/icon?family=Material+Icons");
+
+body {
+  margin: 0;
+  line-height: normal;
+}
+:root {
+  /* fonts */
+  --font-pingfang-sc: "PingFang SC";
+  --font-sf-pro: "SF Pro";
+
+  /* font sizes */
+  --font-size-xs: 12px;
+
+  /* Colors */
+  --color-black: #000;
+  --color-darkgray-100: #989898;
+  --color-darkgray-200: #979797;
+  --color-darkgray-300: rgba(151, 151, 151, 0.37);
+  --color-ghostwhite: #f4f4fc;
+
+  /* Gaps */
+  --gap-5xl: 24px;
+  --gap-5xs: 8px;
+  --gap-9xl: 28px;
+  --gap-sm: 14px;
+  --gap-xl: 20px;
+  --gap-9xs: 4px;
+
+  /* Paddings */
+  --padding-xl: 20px;
+  --padding-2xl: 21px;
+  --padding-19xl: 38px;
+  --padding-xs-5: 11.5px;
+  --padding-18xl: 37px;
+  --padding-21xl: 40px;
+  --padding-2xs: 11px;
+  --padding-11xl: 30px;
+  --padding-13xl: 32px;
+  --padding-11xs: 2px;
+  --padding-smi: 13px;
+  --padding-mini-7: 14.7px;
+
+  /* Border radiuses */
+  --br-81xl: 100px;
+  --br-9xl: 28px;
+}
